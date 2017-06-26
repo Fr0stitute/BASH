@@ -1,7 +1,7 @@
 #!/bin/bash
 i=0
-for file in $0/*.*
-do
-let i=$i+1
+for file in "$1"/*; do
+    i=$(( i + 1 ))      ## $(( )) is POSIX-compliant arithmetic syntax; let is deprecated.
 done
-echo $i
+
+echo "$i"
