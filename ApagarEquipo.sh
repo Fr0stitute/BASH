@@ -29,9 +29,9 @@ function asistentehorario() {
     clear   
 echo Asistente de horario
 echo
-echo "*.Reinicio"
-echo "*.Apagar"
-echo "*.Cancelar apagado"
+echo "1.Reinicio"
+echo "2.Apagar"
+echo "3.Cancelar apagado"
 echo 
 read op
 case $op in
@@ -51,9 +51,9 @@ poweroff
 clear
 echo Asistente de apagado
 echo
-echo "*.Reinicio"
-echo "*.Apagar"
-echo "*.Horario"
+echo "1.Reinicio"
+echo "2.Apagar"
+echo "3.Horario"
 echo 
 read opcion
 case $opcion in
