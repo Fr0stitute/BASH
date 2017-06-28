@@ -1,8 +1,4 @@
 #!/bin/bash
-if [ -f $0 ]
-then
-    echo "Introduzca un argumento"
-fi
 
 if [ -f $1 ]
 then
